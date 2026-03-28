@@ -1,0 +1,13 @@
+{
+  "domain": "siemens_pac2200",
+  "name": "Siemens PAC2200",
+  "version": "1.0.2",
+  "documentation": "https://github.com/AndriesMuylaert/siemens-pac2200",
+  "issue_tracker": "https://github.com/AndriesMuylaert/siemens-pac2200/issues",
+  "requirements": ["pymodbus>=3.6.9"],
+  "dependencies": [],
+  "codeowners": ["@AndriesMuylaert"],
+  "iot_class": "local_polling",
+  "config_flow": true,
+  "integration_type": "device"
+}
