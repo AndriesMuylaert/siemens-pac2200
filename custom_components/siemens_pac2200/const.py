@@ -13,13 +13,13 @@ CONF_DELAY = "delay"
 # (name, unique_id_suffix, address, unit, device_class, state_class)
 SENSOR_DEFINITIONS = [
     # Per-phase voltages L-N
-    ("Grid Voltage VL1-N",        "VL1N",   1,  "V",   "voltage",        "measurement"),
-    ("Grid Voltage VL2-N",        "VL2N",   3,  "V",   "voltage",        "measurement"),
-    ("Grid Voltage VL3-N",        "VL3N",   5,  "V",   "voltage",        "measurement"),
+    ("Grid Voltage L1-N",        "VL1N",   1,  "V",   "voltage",        "measurement"),
+    ("Grid Voltage L2-N",        "VL2N",   3,  "V",   "voltage",        "measurement"),
+    ("Grid Voltage L3-N",        "VL3N",   5,  "V",   "voltage",        "measurement"),
     # Per-phase voltages L-L
-    ("Grid Voltage VL1-L2",       "VL1L2",  7,  "V",   "voltage",        "measurement"),
-    ("Grid Voltage VL2-L3",       "VL2L3",  9,  "V",   "voltage",        "measurement"),
-    ("Grid Voltage VL3-L1",       "VL3L1",  11, "V",   "voltage",        "measurement"),
+    ("Grid Voltage L1-L2",       "VL1L2",  7,  "V",   "voltage",        "measurement"),
+    ("Grid Voltage L2-L3",       "VL2L3",  9,  "V",   "voltage",        "measurement"),
+    ("Grid Voltage L3-L1",       "VL3L1",  11, "V",   "voltage",        "measurement"),
     # Currents
     ("Grid Current L1",           "IL1",    13, "A",   "current",        "measurement"),
     ("Grid Current L2",           "IL2",    15, "A",   "current",        "measurement"),
